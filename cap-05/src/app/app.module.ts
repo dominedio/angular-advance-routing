@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CarDescriptionComponent } from './car-description/car-description.component';
+import { SimpleCountComponent } from './simple-count/simple-count.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarDescriptionComponent
+    CarDescriptionComponent,
+    SimpleCountComponent
   ],
   imports: [
     BrowserModule

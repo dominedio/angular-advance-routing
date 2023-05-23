@@ -2,7 +2,7 @@
   "name": "car",
   "version": "0.0.0",
   "scripts": {
-    "startCAR": "ng serve"
+    "startApplication": "ng serve"
   },
   "private": true,
   "dependencies": {
