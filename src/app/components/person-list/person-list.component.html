@@ -1,0 +1,20 @@
+<table class="table">
+  <thead>
+    <tr class="active">
+      <th scope="col">ID</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">e-mail</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let repo of repos; index as i">
+        <td>{{ repo.id }}</td>
+        <td>{{ repo.firstname }}</td>
+        <td>{{ repo.lastname }}</td>
+        <td>{{ repo.email }}</td>
+        <button ></button>
+        <button class="delete"(click)="delete(repo.id)">delete</button>
+      </tr>
+  </tbody>
+</table>
